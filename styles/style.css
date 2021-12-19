@@ -16,6 +16,16 @@ body {
   background-position: center center;
   background-size: contain;
   background-color: #674baf;
+  color: white;
+  font-weight: 400;
+}
+
+.logo {
+  margin: 3rem;
+}
+
+.header-img {
+  margin: 4rem 0 0 3rem;
 }
 
 .attribution {
