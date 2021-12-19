@@ -8,11 +8,30 @@ $softMangenta: hsl(300, 69%, 71%);
 $fontHeadings:'Poppins', sans-serif;
 $fontBody: 'Open Sans', sans-serif;
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: $fontBody;
+  background-image: url(/images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-color: $violet;
+}
+
+
+
 
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: $softMangenta;
 }
