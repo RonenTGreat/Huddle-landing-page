@@ -20,8 +20,7 @@ body {
   font-family: $fontBody;
   background-image: url(/images/bg-mobile.svg);
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
+  background-size: cover;
   background-color: $violet;
   color: white;
   font-weight: 400;
