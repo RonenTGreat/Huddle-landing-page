@@ -25,6 +25,7 @@ body {
   color: white;
   font-weight: 400;
   font-size: 2rem;
+  max-height: 140vh;
 }
 
 .logo {
@@ -62,11 +63,25 @@ header {
   position: relative;
   left: 6rem;
   text-align: center;
+  min-width: 600px;
+  padding-bottom: 2rem;
   
 }
 
+button{
+  outline: none;
+  font-size: 2rem;
+  color: $violet;
+  border-radius: 5rem;
+  border: 0;
+  width: 464px;
+  padding: 2rem;
+  margin-left: 10rem;
+  margin-bottom: 6.25rem;
+}
+
 .attribution {
-  font-size: 11px;
+  font-size: 1.5rem;
   text-align: center;
 }
 .attribution a {
