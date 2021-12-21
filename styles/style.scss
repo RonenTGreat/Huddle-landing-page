@@ -58,7 +58,7 @@ header {
 
 .text {
   position: relative;
-  left: 6rem;
+  left: 4rem;
   text-align: center;
   min-width: 600px;
   padding-bottom: 2rem;
@@ -121,7 +121,15 @@ button {
     background-image: url(/images/bg-desktop.svg);
   }
   .container {
+    margin: 0;
+    padding: 0;
     display: flex;
+
+    .header-img{
+      img{
+        width: 600px;
+      }
+    }
 
     .header-img {
       img {
@@ -129,4 +137,44 @@ button {
       }
     }
   }
+
+  header{
+
+    h1{
+      font-size: 2rem;
+    }
+    .first, .second{
+      left: 0;
+      text-align: left;
+    }
+  }
+
+  .text{
+    left: 0;
+    text-align: left;
+    font-size: 1rem;
+    width: 150px;
+    padding: 0;
+  }
+
+  .socials{
+      justify-content: end;
+      left: 0rem;
+      margin-right: 2rem;
+
+      a{
+        height: 2rem;
+        width: 2rem;
+        font-size: 1rem;
+        margin-left: 0.5rem;
+      }
+    }
+
+    button{
+      margin: 0;
+      padding: 1rem;
+      font-size: 1rem;
+      width: 200px;
+    }
+
 }
