@@ -119,4 +119,18 @@ button:hover {
 .attribution a {
   color: #e882e8;
 }
+
+@media (min-width: 840px) {
+  body {
+    background-image: url(/images/bg-desktop.svg);
+  }
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .header-img img {
+    padding-left: 3rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
